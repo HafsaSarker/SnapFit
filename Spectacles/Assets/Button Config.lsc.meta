@@ -1,0 +1,15 @@
+- !<AssetImportMetadata/2dc8c4ac-2153-4e34-bdda-71723a95c712>
+  ImportedAssetIds:
+    Button Config: !<reference> 0da1621e-2180-40f0-a016-e0a554340cb7
+    TypeScriptAsset: !<reference> afe89c01-fda9-4865-a67c-a1627a6f5dc9
+  ImporterName: LensCoreImporter
+  PrimaryAsset: !<reference> 0da1621e-2180-40f0-a016-e0a554340cb7
+  PackageType: LegacyPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<LensCoreImporterSettings/a7da5f88-e4eb-4772-aba1-fc3ecc8039e4>
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

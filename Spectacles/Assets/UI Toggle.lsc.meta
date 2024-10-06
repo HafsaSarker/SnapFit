@@ -5,10 +5,8 @@
     .hidden/SpritePreset.lsmat|SpritePreset2.lsmat|GraphPassInfo: !<reference> a3a0549e-4f99-4ed0-9d9f-bdc0873c938c
     .hidden/SpritePreset1.lsmat: !<reference> ae597cd0-9d24-4501-a8d9-dec3c7e9a1ac
     .hidden/SpritePreset2.lsmat: !<reference> f1650824-01d4-4601-8ff1-a1ac191ab2cb
-    189beecc660e6374: !<reference> a7f4c624-185c-4005-a05c-392c0c40fa48
-    817e454b61377552: !<reference> 2693326a-f4f7-44e2-8045-627574036c0e
-    90290e2da5966704: !<reference> c0a42589-bdc4-40f1-b863-4521fdb68988
-    9ad02a224393be49: !<reference> a56691c0-9d75-4ec0-9435-bac6699c301b
+    243e762073e3f916: !<reference> 046390b7-9f96-4364-9aaa-1f5cb7648e16
+    5fe6c2137276a95e: !<reference> 568c0056-cee5-4b5b-9df2-a65b946500ba
     Default Prefabs/Toggle Background: !<reference> b30e3c0e-9c54-4ac2-a1a3-df792f874767
     Default Prefabs/Toggle Handle: !<reference> b5b0d3de-fb53-4aa6-8f79-42991aa0a1da
     Modules/DestructionHelper_120: !<reference> 67454849-9411-4d3f-8a63-6c442fa8ec5b
@@ -17,8 +15,10 @@
     Scripts/UI Toggle/UI Toggle: !<reference> 03717ba9-3e19-48e1-8063-ce197ab3a9cc
     Textures/Button_10X: !<reference> fb8d2df2-7a8b-440a-a115-6c59d2d6900c
     Textures/Toggle Bg: !<reference> 42194a9c-c162-4ef6-b18c-d05293716575
-    a82ce336edfd5dec: !<reference> 2f5f7084-1077-44f3-b097-ee84c2725b1f
-    e0ac72b130e51e8c: !<reference> 3fa9bdf4-5154-408b-a809-03be6cbb09a2
+    a3846d507ec6946b: !<reference> 59e97f00-6a53-4fb8-8277-c55ef6d3b785
+    cb824b937aca4066: !<reference> 3736d32f-2b83-4d7c-99ea-5b5caeb547b1
+    d71988827ac8e6a1: !<reference> cad7d216-575a-4661-aa4f-15b30c4eadd1
+    e0eaf91157febe0e: !<reference> 3ecbd2ee-0b89-41a7-99be-3ac9c4359e58
   ImporterName: LensCoreImporter
   PrimaryAsset: !<reference> 03717ba9-3e19-48e1-8063-ce197ab3a9cc
   PackageType: LegacyPackage

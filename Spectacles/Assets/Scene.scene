@@ -1198,6 +1198,37 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<ScriptComponent/1b0bc625-1b49-4400-822c-a11fe89fd276>
+  PrefabRemaps:
+    []
+  Name: Bitmoji 3D
+  Enabled: true
+  ScriptAsset: !<reference> 90be28d1-04bc-4fa9-8e63-b88ecc8b825f
+  ScriptInputsDefault:
+    bitmojiType: true
+    friendsComponent: true
+    friendIndex: true
+    mode: true
+    bodyIndex: true
+    alignToBody: true
+    autoDownload: true
+    castShadow: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bitmojiType: 0
+      friendsComponent: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      friendIndex: 0
+      mode: default
+      bodyIndex: 0
+      alignToBody: false
+      mixamoAnimation: true
+      autoDownload: true
+      castShadow: true
+  ScriptTypes:
+    "":
+      {}
 - !<Text/1b6bc2be-4ce2-4e78-81f4-80948f1ddc2e>
   PrefabRemaps:
     []
@@ -1443,6 +1474,26 @@
     - !<own> f0867a32-c701-432f-99b6-99115a55e14d
     - !<own> a92104db-42e6-43e8-9bb8-73f56d04f50e
     - !<own> 74d6bfbd-9aef-480e-b853-25c195377e6c
+- !<AnimationPlayer/1dcdf029-2bc7-4a32-9444-44f0783a8d17>
+  PrefabRemaps:
+    []
+  Name: Animation Player
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip/00000000-0000-0000-0000-000000000000>
+      AnimationAsset: !<reference> 38e412eb-3e5a-4659-9d05-17f4dbb6f175
+      Name: Clip 0
+      Weight: 1.000000
+      PlaybackSpeed: 0.300000
+      Begin: 0.000000
+      End: 138.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
 - !<SceneObject/1e672353-4276-4e5b-a412-ad457cd47e5f>
   PrefabRemaps:
     []
@@ -2315,6 +2366,69 @@
   ScriptTypes:
     "":
       {}
+- !<Text/2e37f0f1-c681-4a90-b06e-aa7ede547f9b>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 4
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: Starting in 5...
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 51
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+    Mode: Solid
+    Color: {x: 0.031373, y: 0.419608, z: 1.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+  Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
+    Enabled: false
+    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings/00000000-0000-0000-0000-000000000000>
+    Enabled: false
+    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings/00000000-0000-0000-0000-000000000000>
+    Enabled: false
+    Fill: !<TextFill/00000000-0000-0000-0000-000000000000>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
 - !<ScriptComponent/2e44275e-c3b2-490b-8a58-0252b69e22a8>
   PrefabRemaps:
     []
@@ -2751,6 +2865,26 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/3a514db4-2461-4215-88bf-bba346db8965>
+  PrefabRemaps:
+    - 1b0bc625-1b49-4400-822c-a11fe89fd276: 3b96053f-a579-46ba-925e-4fb48d2a2631
+    - 1dcdf029-2bc7-4a32-9444-44f0783a8d17: 522634fa-4c82-4623-95ca-90cd401033c9
+    - 3a514db4-2461-4215-88bf-bba346db8965: 65df7381-edf4-45f4-8b0f-89a1154848f7
+    - 529b8f4f-62ea-4311-b1bb-469740993407: 51f4851d-a488-4ffb-988b-39d0042dfebb
+    - 9a45afa8-e4b3-47c3-971f-8546be04fc8c: cfa6d88f-e48a-4185-8279-0dd92bcc3c65
+  Name: BitmojiAnimationController
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -80.000000, z: -150.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9a45afa8-e4b3-47c3-971f-8546be04fc8c
+  Components:
+    - !<own> 1dcdf029-2bc7-4a32-9444-44f0783a8d17
+    - !<own> 529b8f4f-62ea-4311-b1bb-469740993407
 - !<SceneObject/3a8e4b65-b785-4f04-9699-fdb009c0b2fa>
   PrefabRemaps:
     []
@@ -3882,6 +4016,26 @@
   Components:
     - !<own> f9a3673f-a154-4d2b-af03-6bb93bf348f5
     - !<own> 37f803dd-500a-4295-b889-2608e1872e55
+- !<ScriptComponent/529b8f4f-62ea-4311-b1bb-469740993407>
+  PrefabRemaps:
+    []
+  Name: BitmojiAnimationController
+  Enabled: true
+  ScriptAsset: !<reference> e3030c19-a79f-4d09-9360-2ad84f730be2
+  ScriptInputsDefault:
+    animationAsset: true
+    heavyAnimationAsset: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bitmoji3dComponent: !<reference.ScriptComponent> 1b0bc625-1b49-4400-822c-a11fe89fd276
+      animationPlayer: !<reference.AnimationPlayer> 1dcdf029-2bc7-4a32-9444-44f0783a8d17
+      animationAsset: !<reference.AnimationAsset> 38e412eb-3e5a-4659-9d05-17f4dbb6f175
+      heavyAnimationAsset: !<reference.AnimationAsset> 4493673d-ecd4-45d1-a010-f30175d279c2
+  ScriptTypes:
+    "":
+      {}
 - !<ScriptComponent/530a7378-1e99-4a27-bdb3-05361c9b419f>
   PrefabRemaps:
     []
@@ -4159,13 +4313,9 @@
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
-    - !<own> 3fa91ae8-72ae-493b-a97a-43df47394316
-    - !<own> 0d23b76e-e095-4ee7-b539-31dfc37c9486
-    - !<own> 02ddab89-bfdc-42ee-8fed-e0538beacfd8
-    - !<own> 07b49b07-1414-4bee-879a-93ce167b2fb4
-    - !<own> 34ce3f2d-da48-496c-8b8b-9ccf3389ad64
-    - !<own> 77782df0-c401-4330-9c5e-6f6c90ce6383
-    - !<own> b213b62f-5d7c-4a4e-94c9-afcfabfb0c96
+    - !<own> 671fb7d1-2c6b-4aee-aaf9-151ac76263da
+    - !<own> dc589c82-805b-48ef-9b07-3bd91143815c
+    - !<own> aa40c56f-dc25-4fb2-a04f-19d023b4a7e4
   Components:
     []
 - !<SceneObject/5816ecef-c452-42dd-b383-f8e05d7471c5>
@@ -5190,6 +5340,27 @@
     - !<own> 6b48be3a-9f72-4a82-ab70-4e7f5fc7343a
     - !<own> 956d7ce9-9270-4939-aa60-10f68053bf80
     - !<own> ff9e0a86-595c-49b9-84fd-e9010ba679d5
+- !<SceneObject/671fb7d1-2c6b-4aee-aaf9-151ac76263da>
+  PrefabRemaps:
+    []
+  Name: Before
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3fa91ae8-72ae-493b-a97a-43df47394316
+    - !<own> 0d23b76e-e095-4ee7-b539-31dfc37c9486
+    - !<own> 02ddab89-bfdc-42ee-8fed-e0538beacfd8
+    - !<own> 07b49b07-1414-4bee-879a-93ce167b2fb4
+    - !<own> 34ce3f2d-da48-496c-8b8b-9ccf3389ad64
+    - !<own> 77782df0-c401-4330-9c5e-6f6c90ce6383
+    - !<own> b213b62f-5d7c-4a4e-94c9-afcfabfb0c96
+  Components:
+    - !<own> 73058c06-97ac-42ad-a953-7c6e452f7fbe
 - !<Text/6756b8a9-c21f-4af1-9e07-dac8fb172406>
   PrefabRemaps:
     []
@@ -5640,6 +5811,18 @@
   ScriptTypes:
     "":
       {}
+- !<Canvas/73058c06-97ac-42ad-a953-7c6e452f7fbe>
+  PrefabRemaps:
+    []
+  Name: Canvas
+  Enabled: true
+  UnitType: World
+  SortingType: Hierarchy
+  WorldSpaceRect:
+    left: -15.000000
+    bottom: -20.000000
+    right: 15.000000
+    top: 20.000000
 - !<SceneObject/732acdae-935a-4246-9369-aa21ee3e4a01>
   PrefabRemaps:
     []
@@ -6057,6 +6240,18 @@
   ScriptTypes:
     "":
       {}
+- !<Canvas/7ed1d098-6d6e-42d9-82b6-8ea6d07f1f17>
+  PrefabRemaps:
+    []
+  Name: Canvas
+  Enabled: true
+  UnitType: World
+  SortingType: Hierarchy
+  WorldSpaceRect:
+    left: -15.000000
+    bottom: -20.000000
+    right: 15.000000
+    top: 20.000000
 - !<SceneObject/7ed5bfbd-42a1-4c92-be96-c39dbf8f4efb>
   PrefabRemaps:
     []
@@ -7279,6 +7474,21 @@
     []
   Components:
     - !<own> 24cf881f-0af4-45c8-97a1-e8d6a7511d5a
+- !<SceneObject/9a45afa8-e4b3-47c3-971f-8546be04fc8c>
+  PrefabRemaps:
+    []
+  Name: Bitmoji 3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1b0bc625-1b49-4400-822c-a11fe89fd276
 - !<SceneObject/9aaade84-7376-41a8-a708-e3bd40eb9cbb>
   PrefabRemaps:
     []
@@ -7770,6 +7980,21 @@
     []
   Components:
     []
+- !<SceneObject/aa40c56f-dc25-4fb2-a04f-19d023b4a7e4>
+  PrefabRemaps:
+    []
+  Name: Canvas
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 40.000000, y: 85.000000, z: 20.000000}
+    rotation: {x: 69.999992, y: 9.999998, z: 150.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f356a68e-9a2a-4bf7-ae11-7a146c8d6a8e
 - !<SceneObject/aa46ecb0-2f4c-4f25-b97f-81f7867ef3fb>
   PrefabRemaps:
     []
@@ -9607,7 +9832,7 @@
   MeshShadowMode: None
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
-  Text: Jumping Jack
+  Text: "Jumping Jack "
   Editable: false
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
@@ -9977,6 +10202,22 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/dc589c82-805b-48ef-9b07-3bd91143815c>
+  PrefabRemaps:
+    []
+  Name: StartWorkout
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -60.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3a514db4-2461-4215-88bf-bba346db8965
+    - !<own> edf317fc-5744-4c8f-b362-4e7c23f48223
+  Components:
+    - !<own> 7ed1d098-6d6e-42d9-82b6-8ea6d07f1f17
 - !<ColliderComponent/dc8663bd-169c-4426-8118-74a9fb9849d4>
   PrefabRemaps:
     []
@@ -10867,6 +11108,21 @@
     bottom: -1.050000
     right: 3.750000
     top: 1.050000
+- !<SceneObject/edf317fc-5744-4c8f-b362-4e7c23f48223>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2e37f0f1-c681-4a90-b06e-aa7ede547f9b
 - !<RenderMeshVisual/ee37b1f3-32a4-484d-a4bb-43b2bc54befa>
   PrefabRemaps:
     []
@@ -11112,6 +11368,18 @@
   ScriptTypes:
     "":
       {}
+- !<Canvas/f356a68e-9a2a-4bf7-ae11-7a146c8d6a8e>
+  PrefabRemaps:
+    []
+  Name: Canvas
+  Enabled: true
+  UnitType: World
+  SortingType: Hierarchy
+  WorldSpaceRect:
+    left: -15.000000
+    bottom: -20.000000
+    right: 15.000000
+    top: 20.000000
 - !<RenderMeshVisual/f37dafc5-394b-4e45-ae22-b6f6b8fb4dc2>
   PrefabRemaps:
     []

@@ -50,7 +50,8 @@ export class PinchButton extends BaseScriptComponent {
                           parentObject.enabled = false; // Hide the parent SceneObject
                       }
                       this.onButtonPinchedEvent.invoke(interactorEvent);
-                       
+                       var rootObject = this.getSceneObject().getParent().getParent();
+                        rootObject.enabled = true;
                   }
               } catch (e) {
                   this.log.e('Error invoking onButtonPinchedEvent!');

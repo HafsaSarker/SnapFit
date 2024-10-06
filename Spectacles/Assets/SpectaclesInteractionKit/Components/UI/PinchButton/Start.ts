@@ -45,6 +45,10 @@ export class PinchButton extends BaseScriptComponent {
           this.interactable.onTriggerEnd.add((interactorEvent: InteractorEvent) => {
               try {
                   if (this.enabled) {
+                      var parentObject = this.getSceneObject().getParent();
+                      if (parentObject) {
+                          parentObject.enabled = false; // Hide the parent SceneObject
+                      }
                       this.onButtonPinchedEvent.invoke(interactorEvent);
                   }
               } catch (e) {

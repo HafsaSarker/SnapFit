@@ -1,18 +1,18 @@
-- !<AssetImportMetadata/3a6ad000-f101-483f-a478-a8936781fc74>
+- !<AssetImportMetadata/c971ee31-b828-4470-b1bf-ac075f0b0107>
   ImportedAssetIds:
-    TypeScriptAsset: !<reference> a54c5722-d3fb-4aa5-97ff-f7425978bc59
+    TypeScriptAsset: !<reference> 60a008d9-8024-4939-b534-dc7a683032b3
   ImporterName: TypeScriptAssetImporter
-  PrimaryAsset: !<reference> a54c5722-d3fb-4aa5-97ff-f7425978bc59
+  PrimaryAsset: !<reference> 60a008d9-8024-4939-b534-dc7a683032b3
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
-    TypeScriptAsset: !<own> b86e782f-e9bd-41ee-91d4-75d22a8eb1d3
+    TypeScriptAsset: !<own> 1af12bfe-8475-4ec3-af0b-1a6ac5adb101
   DependentFiles:
     []
-  ImporterSettings: !<AssetImporterSettings/29e246b2-5bcc-4141-ad88-79c06ea817da>
+  ImporterSettings: !<AssetImporterSettings/47e45b59-6031-49b6-b4a1-34d6f88c074d>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<TypeScriptAssetData/b86e782f-e9bd-41ee-91d4-75d22a8eb1d3>
+- !<TypeScriptAssetData/1af12bfe-8475-4ec3-af0b-1a6ac5adb101>
   SvgIcon: ""
   Description: ""
   InternalVersion: 0
@@ -30,7 +30,7 @@
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    - editEventCallbacks: true
+    - editEventCallbacks: false
       customFunctionForOnButtonPinched: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       onButtonPinchedFunctionNames: !<string[]>
         []
